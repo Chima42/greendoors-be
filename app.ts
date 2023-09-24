@@ -1,4 +1,4 @@
-import { Request, Response, Application ,Express } from "express";
+import { Request, Response, Application } from "express";
 import express = require("express");
 require('dotenv').config()
 import dynamo from 'aws-sdk/clients/dynamodb';

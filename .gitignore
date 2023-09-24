@@ -1,5 +1,2 @@
-/node_modules
-new-test-instance.pem
-greendoors-demo2.pem
+node_modules
 dist/app.js.map
-.env
