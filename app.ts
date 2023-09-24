@@ -9,8 +9,8 @@ const _tableName = "greendoors";
 const x = new dynamo.DocumentClient({
   region: "eu-west-2",
   credentials: {
-    accessKeyId: process.env.ACCESS_KEY,
-    secretAccessKey: process.env.SECRET_ACCESS_KEY,
+    accessKeyId: process.env.AWS_ACCESS_KEY,
+    secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY,
   }
 });
 
